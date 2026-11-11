@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GARASI DRIFT — showroom mobil drift, JDM, dan street performance.">
+  <title>GARASI DRIFT | Built to Slide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="topline"><span>EST. 2026</span><span>JDM CULTURE · STREET PERFORMANCE · DRIFT</span><span>JAKARTA, INDONESIA</span></div>
+  <header class="navbar">
+    <a class="brand" href="#home"><span class="brand-mark">GD<span>↗</span></span><span>GARASI <b>DRIFT</b><small>BUILT TO SLIDE</small></span></a>
+    <button class="menu-toggle" aria-label="Buka menu">☰</button>
+    <nav id="nav">
+      <a href="#home">HOME</a><a href="#cars">INVENTORY</a><a href="#about">ABOUT</a><a href="#services">SERVICES</a>
+      <a class="nav-cta" href="#contact">HUBUNGI KAMI <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image"></div><div class="hero-shade"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow"><i></i> MORE THAN A GARAGE</p>
+        <h1>LIVE FAST.<br><em>DRIFT</em> HARD.</h1>
+        <p class="hero-copy">Tempat berkumpulnya mesin bertenaga, gaya tanpa kompromi, dan jiwa pecinta otomotif.</p>
+        <div class="hero-actions"><a class="btn btn-red" href="#cars">JELAJAHI MOBIL <span>↗</span></a><a class="text-link" href="#about">KENALI GARASI KAMI <span>→</span></a></div>
+      </div>
+      <div class="hero-stamp"><strong>01</strong><span>THE ART OF<br>CONTROL</span></div>
+      <div class="hero-bottom"><span>SCROLL TO EXPLORE ↓</span><span>GRIP IS TEMPORARY. STYLE IS FOREVER.</span></div>
+    </section>
+
+    <div class="ticker" aria-label="Garasi Drift running text"><div class="ticker-track">
+      <span>JDM LEGENDS</span><b>✦</b><span>DRIFT CULTURE</span><b>✦</b><span>BUILT NOT BOUGHT</span><b>✦</b><span>STREET PERFORMANCE</span><b>✦</b><span>JDM LEGENDS</span><b>✦</b><span>DRIFT CULTURE</span><b>✦</b><span>BUILT NOT BOUGHT</span><b>✦</b>
+    </div></div>
+
+    <section class="section inventory" id="cars">
+      <div class="section-head reveal"><div><p class="eyebrow"><i></i> THE COLLECTION</p><h2>FIND YOUR<br><em>BEAST.</em></h2></div><p class="section-intro">Dari legenda JDM sampai street machine modern. Temukan karakter berkendara yang paling cocok denganmu.</p></div>
+      <div class="filters reveal">
+        <button class="filter active" data-filter="all">SEMUA MOBIL</button><button class="filter" data-filter="jdm">JDM</button><button class="filter" data-filter="euro">EURO</button><button class="filter" data-filter="sport">SPORT</button>
+      </div>
+      <div class="car-grid">
+        <article class="car-card reveal" data-category="jdm">
+          <div class="car-photo"><img src="https://images.unsplash.com/photo-1614200187524-dc4b892acf16?auto=format&fit=crop&w=1000&q=85" alt="Mobil sport Jepang modifikasi"><span class="car-tag">JDM ICON</span><button class="heart" aria-label="Favorit">♡</button></div>
+          <div class="car-info"><div class="car-meta"><span>01 / NISSAN</span><span>RWD</span></div><h3>Silvia S15 Spec-R</h3><p>Turbocharged · Manual · Street setup</p><div class="car-bottom"><strong>Rp 685 Juta</strong><button class="detail-btn" data-car="Silvia S15 Spec-R">DETAIL ↗</button></div></div>
+        </article>
+        <article class="car-card reveal" data-category="jdm">
+          <div class="car-photo"><img src="https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=1000&q=85" alt="Toyota Supra sport"><span class="car-tag">LEGENDARY</span><button class="heart" aria-label="Favorit">♡</button></div>
+          <div class="car-info"><div class="car-meta"><span>02 / TOYOTA</span><span>RWD</span></div><h3>Supra MK4</h3><p>2JZ · Twin Turbo · Performance</p><div class="car-bottom"><strong>Rp 1,25 M</strong><button class="detail-btn" data-car="Supra MK4">DETAIL ↗</button></div></div>
+        </article>
+        <article class="car-card reveal" data-category="euro">
+          <div class="car-photo"><img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1000&q=85" alt="BMW sport"><span class="car-tag">EURO STYLE</span><button class="heart" aria-label="Favorit">♡</button></div>
+          <div class="car-info"><div class="car-meta"><span>03 / BMW</span><span>RWD</span></div><h3>BMW M3 E46</h3><p>Inline-6 · Manual · Track inspired</p><div class="car-bottom"><strong>Rp 795 Juta</strong><button class="detail-btn" data-car="BMW M3 E46">DETAIL ↗</button></div></div>
+        </article>
+        <article class="car-card reveal" data-category="jdm">
+          <div class="car-photo"><img src="https://images.unsplash.com/photo-1600705722908-bab1d6c3a7e8?auto=format&fit=crop&w=1000&q=85" alt="Mobil Nissan Skyline"><span class="car-tag">JDM ICON</span><button class="heart" aria-label="Favorit">♡</button></div>
+          <div class="car-info"><div class="car-meta"><span>04 / NISSAN</span><span>AWD</span></div><h3>Skyline GT-R R34</h3><p>RB26DETT · Twin Turbo · Legend</p><div class="car-bottom"><strong>Rp 2,8 M</strong><button class="detail-btn" data-car="Skyline GT-R R34">DETAIL ↗</button></div></div>
+        </article>
+        <article class="car-card reveal" data-category="sport">
+          <div class="car-photo"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=85" alt="Porsche sport"><span class="car-tag">SPORT</span><button class="heart" aria-label="Favorit">♡</button></div>
+          <div class="car-info"><div class="car-meta"><span>05 / PORSCHE</span><span>RWD</span></div><h3>911 Carrera</h3><p>Flat-6 · PDK · Precision machine</p><div class="car-bottom"><strong>Rp 2,1 M</strong><button class="detail-btn" data-car="Porsche 911 Carrera">DETAIL ↗</button></div></div>
+        </article>
+        <article class="car-card reveal" data-category="euro">
+          <div class="car-photo"><img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1000&q=85" alt="Mercedes sport"><span class="car-tag">EURO STYLE</span><button class="heart" aria-label="Favorit">♡</button></div>
+          <div class="car-info"><div class="car-meta"><span>06 / MERCEDES</span><span>RWD</span></div><h3>AMG C63</h3><p>V8 Biturbo · Sport · Premium</p><div class="car-bottom"><strong>Rp 1,65 M</strong><button class="detail-btn" data-car="Mercedes-AMG C63">DETAIL ↗</button></div></div>
+        </article>
+      </div>
+      <p class="disclaimer">* Foto, spesifikasi, dan harga merupakan contoh tampilan katalog. Silakan sesuaikan dengan unit dan harga aktual.</p>
+    </section>
+
+    <section class="manifesto" id="about"><div class="manifesto-bg"></div><div class="manifesto-content reveal"><p class="eyebrow"><i></i> OUR PHILOSOPHY</p><h2>NOT JUST<br>ABOUT <em>HORSEPOWER.</em></h2><p>Kami percaya mobil adalah ekspresi karakter. GARASI DRIFT hadir untuk mempertemukan passion otomotif, kualitas pilihan, dan pengalaman berkendara yang berkesan.</p><a class="btn btn-outline" href="#contact">CERITA KAMI <span>↗</span></a></div><div class="manifesto-number">02</div></section>
+
+    <section class="section services" id="services"><div class="section-head reveal"><div><p class="eyebrow"><i></i> WHAT WE DO</p><h2>BUILT FOR<br><em>ENTHUSIASTS.</em></h2></div><p class="section-intro">Lebih dari sekadar jual beli mobil. Kami membantu setiap penggemar otomotif menemukan mesin impiannya.</p></div>
+      <div class="service-grid">
+        <div class="service reveal"><span>01</span><div><h3>CURATED CARS</h3><p>Pilihan mobil performa dan JDM dengan kurasi yang mengutamakan karakter serta kualitas.</p></div><b>↗</b></div>
+        <div class="service reveal"><span>02</span><div><h3>CAR CONSULTATION</h3><p>Konsultasi untuk membantu menentukan unit sesuai kebutuhan, gaya, dan anggaran.</p></div><b>↗</b></div>
+        <div class="service reveal"><span>03</span><div><h3>TRADE-IN SERVICE</h3><p>Diskusikan opsi tukar tambah kendaraan dengan proses yang transparan.</p></div><b>↗</b></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact"><div class="contact-inner reveal"><p class="eyebrow"><i></i> LET'S TALK MACHINES</p><h2>YOUR NEXT<br><em>STORY STARTS HERE.</em></h2><p>Punya mobil incaran atau ingin konsultasi? Hubungi tim GARASI DRIFT.</p><a class="btn btn-red" href="https://wa.me/6281234567890?text=Halo%20GARASI%20DRIFT%2C%20saya%20ingin%20bertanya%20tentang%20mobil." target="_blank" rel="noopener">CHAT WHATSAPP <span>↗</span></a><small>Ganti nomor WhatsApp pada link dengan nomor bisnis kamu.</small></div></section>
+  </main>
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">GD<span>↗</span></span><span>GARASI <b>DRIFT</b><small>BUILT TO SLIDE</small></span></a><p>© 2026 GARASI DRIFT. ALL RIGHTS RESERVED.</p><a href="#home">BACK TO TOP ↑</a></footer>
+
+  <dialog id="carDialog"><button class="dialog-close" aria-label="Tutup">×</button><p class="eyebrow"><i></i> VEHICLE DETAILS</p><h2 id="dialogTitle">Car name</h2><p>Hubungi tim kami untuk informasi kondisi unit, spesifikasi lengkap, jadwal kunjungan showroom, dan penawaran terbaru.</p><a id="dialogWhatsapp" class="btn btn-red" href="#" target="_blank" rel="noopener">TANYAKAN UNIT ↗</a></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
